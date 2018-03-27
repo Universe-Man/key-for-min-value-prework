@@ -4,13 +4,13 @@ def key_for_min_value(name_hash)
     return nil
   else
     firstValue = 0
-    minKey = ""
+    minKey = :
 
     name_hash.each do |key, value|
       if value < firstValue
         firstValue = value
         minKey = value
-        binding.pry
+
       end
     end
   end
