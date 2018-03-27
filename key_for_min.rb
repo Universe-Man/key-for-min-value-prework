@@ -13,3 +13,5 @@ def key_for_min_value(name_hash)
         testerValue = value
       end
   end
+end
+end
